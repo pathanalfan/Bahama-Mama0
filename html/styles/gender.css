@@ -1,0 +1,56 @@
+.being1{
+position: relative;
+margin-left: 10px;
+margin-top: 70px;
+
+width: 800px;
+opacity: 0.5;
+}
+
+.being1:hover{
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.being2{
+  position: relative;
+  margin-left: 20px;
+  margin-top: 70px;
+
+  width: 800px;
+  opacity: 0.5;
+  }
+  
+  .being2:hover{
+    opacity: 1;
+    transition: 0.5s;
+  }
+
+.gender-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  }
+
+.gender1{
+  font-family: karit,arial;
+  font-size: 50px;
+  font-weight: 600;
+  
+  color: rgb(53, 5, 87);
+  position: absolute;
+  bottom:770px ;
+  left: 355px;
+  z-index: 100;
+}
+
+.gender2{
+  font-family: karit,arial;
+  font-size: 50px;
+  font-weight: 600;
+  
+  color: rgb(53, 5, 87);
+  position: absolute;
+  bottom:770px ;
+  right:270px;
+  z-index: 100;
+}
