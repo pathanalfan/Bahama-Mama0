@@ -1,0 +1,81 @@
+.mens{
+  margin-top: 150px;
+  margin-right: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: kanit,arial;
+  font-size: 45px;
+  font-weight: 500;
+  color: rgb(74, 6, 119);
+}
+.img{
+  width: 100%;
+}
+
+.name{
+  margin-top: 0;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 10px;
+  border-bottom-width:2px ;
+  border-bottom-style:solid ;
+  border-bottom-color: rgb(74, 6, 119) ;
+}
+
+.sample-row{
+  margin-bottom: 8px;
+  position: relative;
+  z-index: 1;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap:40px;
+  margin-top: 70px;
+  }
+
+@media (max-width:750px) {
+  .grid{
+    grid-template-columns: 1fr 1fr ;
+  }
+}
+
+@media (min-width:751px){
+  .grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  } 
+}
+
+.type{
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.price{
+  margin-top: 0;
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 20px;
+}
+
+.off{
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 20px;
+}
+
+.offer{
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 20px;
+  color: red
+}
